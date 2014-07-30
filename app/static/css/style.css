@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Crafty+Girls);
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+
+
+/*p {
+font-family: 'Shadows Into Light', cursive;
+}*/
+
+
+
+h1 {
+  text-align: center;
+  background-color: cyan;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+thead {
+  color: gold;
+}
+table {
+  height: 600px;
+  width: 600px;
+  border: 2px solid black;
+  background-image: url(/img/wood.jpg);
+  border-radius: 5px;
+}
+td {
+  border: 2px solid black;
+  height: 50px;
+  width:50px;
+}
+#even :nth-child(even) {
+  background-image: url(/img/odd.jpg);
+  background-size: 100%;
+}
+
+#even :nth-child(odd) {
+  background-image: url(/img/black_even.jpg);
+  background-size 100%;
+}
+#odd :nth-child(odd) {
+  background-image: url(/img/odd.jpg);
+  background-size: 100%;
+  background-color: black;
+
+}
+#odd :nth-child(even) {
+  background-image: url(/img/black_even.jpg);
+  background-size 100%;
+}
+/*
+.white {
+  height: 35px;
+  width: 35px;
+  background-color: red;
+  border: 3px solid red;
+  border-radius: 50px;
+  margin-left: 6px;
+}
+*/
