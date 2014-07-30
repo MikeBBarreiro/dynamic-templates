@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sum</title>
+  </head>
+  <body>
+    <h1>Sum</h1>
+    <% var sum = x+y+b+c %>
+    <%= x %> , <%= y %> , <%= b %> , <%= c %>
+    <% var sumColor = (sum%2) === 0 ? 'blue' : 'red' %>
+    <% colors = ['blue', 'green'] %>
+    <h2><%= x %> + <%= y %> + <%= b %> + <%= c %> = <span style="color:<%= sumColor %>;"><%= sum %></span></h2>
+    <h2>3 + 2 = 5</h2>
+  </body>
+</html>
